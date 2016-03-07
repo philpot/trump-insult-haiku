@@ -13,13 +13,12 @@ from tweet import trump
 #-----------------------------------------------------------------------
 new_status = "testing testing"
 new_status = trump(times=1, closing="")
-print new_status
 
 #-----------------------------------------------------------------------
 # load our API credentials 
 #-----------------------------------------------------------------------
 config = {}
-execfile("/Users/philpot/ws/trump-insult-haiki/config.py", config)
+execfile("/Users/philpot/ws/trump-insult-haiku/config.py", config)
 
 #-----------------------------------------------------------------------
 # create twitter API object
@@ -32,4 +31,3 @@ twitter = Twitter(
 # twitter API docs: https://dev.twitter.com/docs/api/1/post/statuses/update
 #-----------------------------------------------------------------------
 results = twitter.statuses.update(status = new_status)
-print "updated status: %s" % new_status
