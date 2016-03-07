@@ -5,7 +5,8 @@
 #  - posts a status message to your timeline
 #-----------------------------------------------------------------------
 
-from twitter import *
+# from twitter import *
+from twitter import Twitter, OAuth
 from tweet import trump
 
 #-----------------------------------------------------------------------
