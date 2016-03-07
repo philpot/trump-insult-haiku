@@ -19,7 +19,7 @@ print new_status
 # load our API credentials 
 #-----------------------------------------------------------------------
 config = {}
-execfile("config.py", config)
+execfile("/Users/philpot/ws/trump-insult-haiki/config.py", config)
 
 #-----------------------------------------------------------------------
 # create twitter API object
