@@ -1,11 +1,13 @@
 #!/Library/Frameworks/Python.framework/Versions/2.7/bin/python
 
+import sys
 import cgi
 
 import cgitb; cgitb.enable()  # for troubleshooting
 
 import random
 import time
+import argparse
 
 def strTimeProp(start, end, format, prop):
     """Get a time at a proportion of a range of two formatted times.
@@ -218,43 +220,11 @@ def trump(times=2, line_length=72, closing=closing):
     raw = raw.replace(" !", "!")
     return raw + closing
 
-# print "Content-type: text/html"
-# print
+def main(argv=None):
+    '''this is called if run from command line'''
+    parser = argparse.ArgumentParser()
+    print trump(times=1, closing="")
 
-# print """<html>
-
-# <head><title>Donald J. Trump @realDonaldTrump</title></head>
-
-# <body>"""
-
-# form = cgi.FieldStorage()
-# message = form.getvalue("message", "(no message)")
-
-# print """
-# <table>
-# <tr>
-# <td>
-# <img src="http://localhost/donald/DJT_Headshot_V2_400x400.jpg" width="50" height="50">
-# </td>
-# <td>
-# <p><span style="font-family: Helvetica, sans-serif; font-size: 12px; font-weight: bold">Donald J. Trump</span>
-# <br/>
-# <span style="font-family: Helvetica, sans-serif; font-size: 10px; font-color: #0000FF">@realDonaldTrump</span>
-# </p>
-# </td>
-# </tr>
-# <tr>
-# <td colspan="2">
-# <span style="font-family: Helvetica, sans-serif; font-size: 14px;">%s</span></td>
-# </tr>
-# </table>
-
-#   <form method="post" action="tweet.py">
-#     <input type="submit" value="Trump me"/>
-# <!-- <p>message: <input type="text" name="message"/></p>-->
-#   </form>
-
-# </body>
-
-# </html>
-# """ % (trump(1))
+# call main() if this is run as standalone
+if __name__ == "__main__":
+    sys.exit(main())
