@@ -1,5 +1,7 @@
 #!/Library/Frameworks/Python.framework/Versions/2.7/bin/python
 
+# http://talkingpointsmemo.com/edblog/readers-advance-study-of-the-trump-attack-haiku
+
 import sys
 import cgi
 
@@ -51,7 +53,7 @@ Rubio ad claims
 Cruz ad claims
 Looks like
 Because of me,
-
+Make sure you get on the Trump line --
 
 
 
