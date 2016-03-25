@@ -91,7 +91,21 @@ John Kasich, who nobody ever heard of,
 @MittRomney
 Another Romney advisor
 Campaign mgr Stuart Stevens
-"""
+@JebBush
+@LindseyGrahamSC
+Marco Rubio
+Ted and Heidi Cruz
+Ted Cruz
+Lyin' Ted Cruz
+@megynkelly
+Failed presidential candidate Mitt Romney
+The man who "choked" and let us all down
+Some dummy at the @WSJ Editorial Board
+Crazy @megynkelly
+Highly overrated & crazy @megynkelly
+With millions of dollars of phony ads against me, the establishment
+@EWErickson
+Club For Growth"""
 
 verbs = """is a Mitt Romney, who doesn't know how to win
 does not have the right "temperment" to be President
@@ -141,7 +155,10 @@ is a total joke, and everyone knows it
 -- what a joke, it's clear to everybody
 should get on the #TrumpTrain
 -- another desperate move by someone who couldn't beat Hillary Clinton
-"""
+is now endorsing Lyin' Ted Cruz. This is good for me
+should not be allowed to win in Utah - Mormons don't like LIARS
+is now complaining that @oreillyfactor did not defend against me - but their bad show is a total hit piece on me
+is always complaining about Trump and yet she devotes her shows to me."""
 
 hashtag = """
 #CaucusForTrump
@@ -160,9 +177,17 @@ hashtag = """
 #decision2016
 #superSaturday
 #asktrump
-
-
-
+#LyingTed
+#NeverCruz
+#TrumpTrain
+#TrumpCountry
+#AZ
+#UT
+#NY
+#WI
+#CT
+#TrumpHawaii
+#TrumpNY
 
 
 """
@@ -200,7 +225,27 @@ WOW
 Bought and paid for
 Not a real person, right?
 Faker
-Phony"""
+Phony
+A picture is worth a thousand words
+@RealSheriffJoe
+Just another dishonest politician
+No Way
+I will stop it
+No respect
+Wrong
+SAD
+Trashing, negative, hate
+NO COMMONSENSE
+overrated
+I said NO
+Can anyone explain this
+Apologize
+Tough
+Wow
+Boycott
+Sick
+Total Waste of Time
+So average in so many ways"""
 
 
 

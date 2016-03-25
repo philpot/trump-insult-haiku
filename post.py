@@ -19,7 +19,8 @@ new_status = trump(times=1, closing="")
 # load our API credentials 
 #-----------------------------------------------------------------------
 config = {}
-execfile("/Users/philpot/ws/trump-insult-haiku/config.py", config)
+# This should be related to __file__
+execfile("/home/andrewphilpot/project/trump-insult-haiku/config.py", config)
 
 #-----------------------------------------------------------------------
 # create twitter API object
