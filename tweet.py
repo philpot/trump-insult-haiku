@@ -105,7 +105,16 @@ Crazy @megynkelly
 Highly overrated & crazy @megynkelly
 With millions of dollars of phony ads against me, the establishment
 @EWErickson
-Club For Growth"""
+Club For Growth
+@FoxNews polls
+Even @DailyBeast (no fan of mine)
+Gov. Scott Walker
+The @TODAYshow
+@chucktodd
+the new @NBCNews Poll
+@DavidGregory
+Sleepy eyes @chucktodd
+"""
 
 verbs = """is a Mitt Romney, who doesn't know how to win
 does not have the right "temperment" to be President
@@ -188,7 +197,8 @@ hashtag = """
 #CT
 #TrumpHawaii
 #TrumpNY
-
+#WIPrimary
+#WOMEN4TRUMP
 
 """
 
@@ -245,8 +255,14 @@ Wow
 Boycott
 Sick
 Total Waste of Time
-So average in so many ways"""
-
+So average in so many ways
+I alone can solve
+Not like the others
+Weak leaders
+Ridiculous
+Ridiculous laws
+So Sad
+I told you so"""
 
 
 import textwrap, random

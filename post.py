@@ -12,8 +12,11 @@ from tweet import trump
 #-----------------------------------------------------------------------
 # what should our new status be?
 #-----------------------------------------------------------------------
-new_status = "testing testing"
-new_status = trump(times=1, closing="")
+new_status = None
+while not new_status:
+    new_status = trump(times=1, closing="")
+    if len(new_status) >= 140:
+        new_status = None
 
 #-----------------------------------------------------------------------
 # load our API credentials 
