@@ -63,3 +63,5 @@ target/
 
 # avoid
 bak/*
+# emacs
+*~
