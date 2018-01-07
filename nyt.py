@@ -566,8 +566,9 @@ PHRASES = [
                         "not presidential material",
                         "not smart",
                         "your very dumb fundraiser hit me very hard--- not smart!"]},
-                                        # PEOPLE:Michael Barbaro
-           {"target": "PEOPLE:Michael Barbaro",
+    # BEGIN PEOPLE:
+                                        # Michael Barbaro
+           {"target": "Michael Barbaro",
                                         # REPORTER, THE NEW YORK TIMES
             "role": "REPORTER, THE NEW YORK TIMES",
             "phrases": ["should resign",
@@ -702,7 +703,7 @@ PHRASES = [
                                         # Bill and Hillary Clinton
            {"target": "Bill and Hillary Clinton",
                                         # ''
-            "role": "",
+            "role": "FORMER PRESIDENT OF THE UNITED STATES",
             "phrases": ["spend millions on negative ads on me!"]},
                                         # Bill Clinton
            {"target": "Bill Clinton",
@@ -1108,7 +1109,7 @@ PHRASES = [
                                         # Barack Obama
            {"target": "Barack Obama",
                                         # PRESIDENT OF THE UNITED STATES
-            "role": "PRESIDENT OF THE UNITED STATES",
+            "role": "FORMER PRESIDENT OF THE UNITED STATES",
             "phrases": ["failed",
                         "the worst president in U.S. history!",
                         "weak",
@@ -1404,7 +1405,7 @@ PHRASES = [
                                         # Voters
            {"target": "Voters",
                                         # GROUP
-            "role": "GROUP",
+            "role": "ELECTION GROUP",
             "phrases": ["I don't believe I have been given any credit by the voters for self-funding my campaign"]},
                                         # Nicolle Wallace
            {"target": "Nicolle Wallace",
@@ -1507,8 +1508,9 @@ PHRASES = [
                         "worst mayor in the United States",
                         "his ineptitude",
                         "probably the worst Mayor in the history of #NYC"]},
+    # BEGIN GROUPS:
                                         # GROUPS:Jeb Bush, Supporters of
-           {"target": "GROUPS:Jeb Bush, Supporters of",
+           {"target": "Jeb Bush, Supporters of",
                                         # Jeb Bush, Supporters of
             "role": "Jeb Bush, Supporters of",
             "phrases": ["everyone of those people who contributed are getting something to the detriment of America"]},
@@ -1543,7 +1545,7 @@ PHRASES = [
                                         # The Democratic candidates
            {"target": "The Democratic candidates",
                                         # GROUP
-            "role": "GROUP",
+            "role": "ELECTION GROUP",
             "phrases": ["very gentle and soft",
                         "no STAR"]},
                                         # Democrats
@@ -1555,12 +1557,12 @@ PHRASES = [
                                         # European leaders
            {"target": "European leaders",
                                         # GROUP
-            "role": "GROUP",
+            "role": "POLITICAL GROUP",
             "phrases": ["weak leaders"]},
                                         # Republican presidential candidates
            {"target": "Republican presidential candidates",
                                         # GROUP
-            "role": "GROUP",
+            "role": "ELECTION GROUP",
             "phrases": ["bought and paid for by special interests!",
                         "beg for money etc. from the Koch Brothers",
                         "puppets"]},
@@ -1579,7 +1581,7 @@ PHRASES = [
                                         # The Obama administration
            {"target": "The Obama administration",
                                         # ''
-            "role": "''",
+            "role": "ADMINISTRATION OF PRESIDENT OF THE UNITED STATES",
             "phrases": ["incompetence of our current administration is beyond comprehension"]},
                                         # Other presidential candidates
            {"target": "Other presidential candidates",
@@ -1592,18 +1594,18 @@ PHRASES = [
                                         # People
            {"target": "People",
                                         # GROUP
-            "role": "GROUP",
+            "role": "GENERAL GROUP",
             "phrases": ["have got to stop working to be so politically correct",
                         "know NOTHING"]},
                                         # Politically incorrect fools
            {"target": "Politically incorrect fools",
                                         # GROUP
-            "role": "GROUP",
+            "role": "POLITICAL GROUP",
             "phrases": ["stop wasting time and energy on nonsense"]},
                                         # Politicians
            {"target": "Politicians",
                                         # ''
-            "role": "''",
+            "role": "POLITICAL GROUP",
             "phrases": ["all talk, no action",
                         "very stupid, highly incompetent people running our country into the ground",
                         "incompetent",
@@ -1615,7 +1617,7 @@ PHRASES = [
                                         # The Republican establishment
            {"target": "The Republican establishment",
                                         # GROUP
-            "role": "GROUP",
+            "role": "POLITICAL GROUP",
             "phrases": ["Dishonest",
                         "failing",
                         "could not stop Obama (twice)",
@@ -1638,12 +1640,12 @@ PHRASES = [
                                         # Other Republican candidates
            {"target": "Other Republican candidates",
                                         # GROUP
-            "role": "GROUP",
+            "role": "ELECTION GROUP",
             "phrases": ["mere puppets"]},
                                         # Republicans
            {"target": "Republicans",
                                         # GROUP
-            "role": "GROUP",
+            "role": "ELECTION GROUP",
             "phrases": ["selfishly opposed to me!",
                         "hollowing out our military"]},
                                         # Super PACs
@@ -1654,15 +1656,16 @@ PHRASES = [
                                         # Donald Trump, Opposition to
            {"target": "Donald Trump, Opposition to",
                                         # ''
-            "role": "''",
+            "role": "GENERAL GROUP",
             "phrases": ["are totally ineffective & have been for years"]},
                                         # U.S. Leaders
            {"target": "U.S. Leaders",
                                         # GROUP
-            "role": "GROUP",
+            "role": "POLITICAL GROUP",
             "phrases": ["we are being led to slaughter"]},
-                                        # MEDIA:Anderson Cooper '360',
-           {"target": "MEDIA:Anderson Cooper '360',",
+    # BEGIN MEDIA:
+                                        # Anderson Cooper '360',
+           {"target": "Anderson Cooper '360',",
                                         # CNN NEWS PROGRAM
             "role": "CNN NEWS PROGRAM",
             "phrases": ["a waste"]},
@@ -1786,7 +1789,7 @@ PHRASES = [
                                         # The mainstream media
            {"target": "The mainstream media",
                                         # ''
-            "role": "''",
+            "role": "NEWS ORGANIZATION",
             "phrases": ["so totally biased",
                         "dishonesty",
                         "one big lie!",
