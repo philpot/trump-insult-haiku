@@ -3,6 +3,7 @@ PHRASES = [
            {"target": "Jeb Bush",
                                         # FORMER FLORIDA GOVERNOR
             "role": "FORMER FLORIDA GOVERNOR",
+            "tags": ["m", "pol"],
             "phrases": ["no honor!",
                         "failed presidential candidate",
                         "low energy",
@@ -94,6 +95,7 @@ PHRASES = [
            {"target": "Ben Carson",
                                         # RETIRED NEUROSURGEON
             "role": "RETIRED NEUROSURGEON",
+            "tags": ["m", "pol"],
             "phrases": ["incapable of understanding foreign policy",
                         "very weak on illegal immigration",
                         "many lies by Ben Carson",
@@ -106,16 +108,19 @@ PHRASES = [
            {"target": "Lincoln Chafee",
                                         # FORMER RHODE ISLAND GOVERNOR
             "role": "FORMER RHODE ISLAND GOVERNOR",
+            "tags": ["m", "pol"],
             "phrases": ["Can anyone imagine Chafee as president? No way."]},
                                         # Chris Christie
            {"target": "Chris Christie",
                                         # NEW JERSEY GOVERNOR
             "role": "NEW JERSEY GOVERNOR",
+            "tags": ["m", "pol"],
             "phrases": ["spending all of his time in NH"]},
                                         # Hillary Clinton
            {"target": "Hillary Clinton",
                                         # FORMER SECRETARY OF STATE
             "role": "FORMER SECRETARY OF STATE",
+            "tags": ["f", "pol"],
             "phrases": ["Crooked",
                         "Crooked",
                         "Crooked",
@@ -253,6 +258,7 @@ PHRASES = [
            {"target": "Ted Cruz",
                                         # UNITED STATES SENATOR
             "role": "UNITED STATES SENATOR",
+            "tags": ["m", "pol"],
             "phrases": ["Lyin', he should drop out of the race-stop wasting time & money",
                         "Sad!",
                         "Made all sorts of crazy charges",
@@ -367,6 +373,7 @@ PHRASES = [
            {"target": "Carly Fiorina",
                                         # FORMER BUSINESS EXECUTIVE
             "role": "FORMER BUSINESS EXECUTIVE",
+            "tags": ["f", "pol"],
             "phrases": ["a V.P.candidate who failed badly",
                         "a running mate who was unable to catch on in her own failed campaign",
                         "campaign is dead",
@@ -377,6 +384,7 @@ PHRASES = [
            {"target": "Lindsey Graham",
                                         # UNITED STATES SENATOR
             "role": "UNITED STATES SENATOR",
+            "tags": ["m", "pol"],
             "phrases": ["no honor!",
                         "failed presidential candidate",
                         "in the end he had no support",
@@ -395,11 +403,13 @@ PHRASES = [
            {"target": "Bobby Jindal",
                                         # FORMER LOUISIANA GOVERNOR
             "role": "FORMER LOUISIANA GOVERNOR",
+            "tags": ["m", "pol"],
             "phrases": ["spent $1,000 to register in New Hampshire & dropped out the next day. Such a waste!"]},
                                         # John Kasich
            {"target": "John Kasich",
                                         # OHIO GOVERNOR
             "role": "OHIO GOVERNOR",
+            "tags": ["m", "pol"],
             "phrases": ["Typical politician",
                         "can't make a deal work",
                         "mathematically dead and totally desperate",
@@ -429,6 +439,7 @@ PHRASES = [
            {"target": "Martin O'Malley",
                                         # DEMOCRATIC CANDIDATE, FORMER GOVERNOR OF MARYLAND
             "role": "DEMOCRATIC CANDIDATE, FORMER GOVERNOR OF MARYLAND",
+            "tags": ["m", "pol"],
             "phrases": ["failed",
                         "a clown",
                         "has very little chance"]},
@@ -436,6 +447,7 @@ PHRASES = [
            {"target": "George Pataki",
                                         # FORMER NEW YORK GOVERNOR
             "role": "FORMER NEW YORK GOVERNOR",
+            "tags": ["m", "pol"],
             "phrases": ["so easy to beat!",
                         "couldn't be elected dog catcher if he ran again",
                         "terrible governor of NY, one of the worst"]},
@@ -443,6 +455,7 @@ PHRASES = [
            {"target": "Rand Paul",
                                         # UNITED STATES SENATOR
             "role": "UNITED STATES SENATOR",
+            "tags": ["m", "pol"],
             "phrases": ["failed presidential candidate",
                         "made a fool of himself",
                         "lowly",
@@ -453,6 +466,7 @@ PHRASES = [
            {"target": "Rick Perry",
                                         # FORMER TEXAS GOVERNOR
             "role": "FORMER TEXAS GOVERNOR",
+            "tags": ["m", "pol"],
             "phrases": ["did an absolutely horrible job of securing the border",
                         "should be ashamed of himself",
                         "failed on the border",
@@ -464,6 +478,7 @@ PHRASES = [
            {"target": "Marco Rubio",
                                         # UNITED STATES SENATOR
             "role": "UNITED STATES SENATOR",
+            "tags": ["m", "pol"],
             "phrases": ["bought and paid for by lobbyists!",
                         "will never MAKE AMERICA GREAT AGAIN!",
                         "worst voting record in the U.S. Senate in many years",
@@ -550,6 +565,7 @@ PHRASES = [
            {"target": "Bernie Sanders",
                                         # UNITED STATES SENATOR
             "role": "UNITED STATES SENATOR",
+            "tags": ["m", "pol"],
             "phrases": ["Crazy",
                         "Crazy",
                         "is lying when he says his disruptors aren't told to go to my events. Be careful Bernie, or my supporters will go to yours!",
@@ -560,6 +576,7 @@ PHRASES = [
            {"target": "Scott Walker",
                                         # WISCONSIN GOVERNOR
             "role": "WISCONSIN GOVERNOR",
+            "tags": ["m", "pol"],
             "phrases": ["puppet",
                         "cratered",
                         "massive deficit, bad jobs forecast, a mess.",
@@ -571,6 +588,7 @@ PHRASES = [
            {"target": "Michael Barbaro",
                                         # REPORTER, THE NEW YORK TIMES
             "role": "REPORTER, THE NEW YORK TIMES",
+            "tags": ["m", "media"],
             "phrases": ["should resign",
                         "the author of the now discredited @nytimes hit piece on me",
                         "The writer of the now proven false story"]},
@@ -578,6 +596,7 @@ PHRASES = [
            {"target": "Glenn Beck",
                                         # TELEVISION PERSONALITY
             "role": "TELEVISION PERSONALITY",
+            "tags": ["m", "media"],
             "phrases": ["Your endorsement means nothing!",
                         "dumb as a rock",
                         "crying",
@@ -600,6 +619,7 @@ PHRASES = [
            {"target": "Elizabeth Beck",
                                         # LAWYER
             "role": "LAWYER",
+            "tags": ["f", "other"],
             "phrases": ["talk about me but know nothing about me",
                         "knows nothing about me",
                         "I loved beating her",
@@ -610,32 +630,38 @@ PHRASES = [
            {"target": "Paul Begala",
                                         # FORMER POLITICAL ADVISER TO BILL CLINTON
             "role": "FORMER POLITICAL ADVISER TO BILL CLINTON",
+            "tags": ["m", "staff"],
             "phrases": ["dopey",
                         "has knowingly committed fraud"]},
                                         # Joy Behar
            {"target": "Joy Behar",
                                         # TELEVISION HOST
             "role": "TELEVISION HOST",
+            "tags": ["f", "media"],
             "phrases": ["fired from her last show for lack of ratings"]},
                                         # Lisa Belkin
            {"target": "Lisa Belkin",
                                         # CHIEF NATIONAL CORRESPONDENT, YAHOO NEWS
             "role": "CHIEF NATIONAL CORRESPONDENT, YAHOO NEWS",
+            "tags": ["f", "media"],
             "phrases": ["low-life"]},
                                         # Charles Blow
            {"target": "Charles Blow",
                                         # COLUMNIST, THE NEW YORK TIMES
             "role": "COLUMNIST, THE NEW YORK TIMES",
+            "tags": ["m", "media"],
             "phrases": ["dishonest reporting"]},
                                         # Brent Bozell
            {"target": "Brent Bozell",
                                         # PRESIDENT, MEDIA RESEARCH CENTER
             "role": "PRESIDENT, MEDIA RESEARCH CENTER",
+            "tags": ["m", ],
             "phrases": ["begging for money like a dog"]},
                                         # David Brooks
            {"target": "David Brooks",
                                         # COLUMNIST, THE NEW YORK TIMES
             "role": "COLUMNIST, THE NEW YORK TIMES",
+            "tags": [],
             "phrases": ["a clown",
                         "dummy!",
                         "one of the dumbest of all pundits",
@@ -646,22 +672,26 @@ PHRASES = [
            {"target": "Frank Bruni",
                                         # COLUMNIST, THE NEW YORK TIMES
             "role": "COLUMNIST, THE NEW YORK TIMES",
+            "tags": [],
             "phrases": ["dope"]},
                                         # Mika Brzezinski
            {"target": "Mika Brzezinski",
                                         # CO-HOST, "MORNING JOE"
             "role": "CO-HOST, 'MORNING JOE'",
+            "tags": [],
             "phrases": ["has gone wild with hate"]},
                                         # Jeb Bush, Campaign staffer of
            {"target": "Jeb Bush, Campaign staffer of",
                                         # EMPLOYEE FOR JEB BUSH
             "role": "EMPLOYEE FOR JEB BUSH",
+            "tags": [],
             "phrases": ["arrogant",
                         "questioned me in such a nasty fashion"]},
                                         # George W. Bush
            {"target": "George W. Bush",
                                         # FORMER PRESIDENT OF THE UNITED STATES
             "role": "FORMER PRESIDENT OF THE UNITED STATES",
+            "tags": [],
             "phrases": ["the WTC came down during his watch, 9/11",
                         "no more Bushes",
                         "wants $120,000 to make a boring speech",
@@ -670,27 +700,32 @@ PHRASES = [
            {"target": "George H.W. Bush",
                                         # FORMER PRESIDENT OF THE UNITED STATES
             "role": "FORMER PRESIDENT OF THE UNITED STATES",
+            "tags": [],
             "phrases": ["no more Bushes"]},
                                         # Carl Cameron
            {"target": "Carl Cameron",
                                         # REPORTER, FOX NEWS
             "role": "REPORTER, FOX NEWS",
+            "tags": [],
             "phrases": ["consistently fumbles & misrepresents poll results",
                         "has been so wrong & he hates it!"]},
                                         # Alisyn Camerota
            {"target": "Alisyn Camerota",
                                         # CO-ANCHOR, "NEW DAY"
             "role": "CO-ANCHOR, 'NEW DAY'",
+            "tags": [],
             "phrases": ["disaster"]},
                                         # Ben Cardin
            {"target": "Ben Cardin",
                                         # MARYLAND SENATOR
             "role": "MARYLAND SENATOR",
+            "tags": [],
             "phrases": ["It's politicians like Cardin that have destroyed Baltimore."]},
                                         # Graydon Carter
            {"target": "Graydon Carter",
                                         # EDITOR, VANITY FAIR
             "role": "EDITOR, VANITY FAIR",
+            "tags": [],
             "phrases": ["a total loser",
                         "sloppy",
                         "grubby"]},
@@ -698,17 +733,20 @@ PHRASES = [
            {"target": "Amy Chozick",
                                         # REPORTER, THE NEW YORK TIMES
             "role": "REPORTER, THE NEW YORK TIMES",
+            "tags": [],
             "phrases": ["third-rate-reporter",
                         "totally in the Hillary circle of bias"]},
                                         # Bill and Hillary Clinton
            {"target": "Bill and Hillary Clinton",
                                         # ''
             "role": "FORMER PRESIDENT OF THE UNITED STATES",
+            "tags": [],
             "phrases": ["spend millions on negative ads on me!"]},
                                         # Bill Clinton
            {"target": "Bill Clinton",
                                         # FORMER PRESIDENT OF THE UNITED STATES
             "role": "FORMER PRESIDENT OF THE UNITED STATES",
+            "tags": [],
             "phrases": ["the WORST abuser of woman in U.S. political history",
                         "hypocrite",
                         "terrible, failed badly",
@@ -719,11 +757,13 @@ PHRASES = [
            {"target": "Anderson Cooper",
                                         # CNN ANCHOR
             "role": "CNN ANCHOR",
+            "tags": [],
             "phrases": ["Has the absolutely worst anti-Trump talking heads on his show"]},
                                         # Katie Couric
            {"target": "Katie Couric",
                                         # GLOBAL ANCHOR, YAHOO NEWS
             "role": "GLOBAL ANCHOR, YAHOO NEWS",
+            "tags": [],
             "phrases": ["third rate reporter",
                         "has been largely forgotten",
                         "should be ashamed of herself",
@@ -732,6 +772,7 @@ PHRASES = [
            {"target": "S.E. Cupp",
                                         # COLUMNIST
             "role": "COLUMNIST",
+            "tags": [],
             "phrases": ["flunkie",
                         "[one] of the dumbest people in politics",
                         "one of the least talented people on television",
@@ -744,6 +785,7 @@ PHRASES = [
            {"target": "Gonzalo P. Curiel",
                                         # DISTRICT JUDGE OF THE UNITED STATES DISTRICT COURT FOR THE SOUTHERN DISTRICT OF CALIFORNIA
             "role": "DISTRICT JUDGE OF THE UNITED STATES DISTRICT COURT FOR THE SOUTHERN DISTRICT OF CALIFORNIA",
+            "tags": [],
             "phrases": ["very biased",
                         "unfair",
                         "totally biased",
@@ -753,6 +795,7 @@ PHRASES = [
            {"target": "Sopan Deb",
                                         # REPORTER, CBS NEWS
             "role": "REPORTER, CBS NEWS",
+            "tags": [],
             "phrases": ["dishonest reporting",
                         "should be fired",
                         "lied",
@@ -761,6 +804,7 @@ PHRASES = [
            {"target": "Erick Erickson",
                                         # CONSERVATIVE COMMENTATOR
             "role": "CONSERVATIVE COMMENTATOR",
+            "tags": [],
             "phrases": ["got fired like a dog from RedState",
                         "ran Red State into the ground",
                         "no 'it' factor",
@@ -773,6 +817,7 @@ PHRASES = [
            {"target": "Major Garrett",
                                         # WHITE HOUSE CORRESPONDENT, CBS
             "role": "WHITE HOUSE CORRESPONDENT, CBS",
+            "tags": [],
             "phrases": ["total agenda",
                         "bad reporter",
                         "covers me very inaccurately"]},
@@ -780,11 +825,13 @@ PHRASES = [
            {"target": "Willie Geist",
                                         # CO-HOST, "TODAY"]
             "role": "CO-HOST, 'TODAY'",
+            "tags": [],
             "phrases": ["uncomfortable looking"]},
                                         # Whoopi Goldberg
            {"target": "Whoopi Goldberg",
                                         # ACTRESS AND TELEVISION PERSONALITY
             "role": "ACTRESS AND TELEVISION PERSONALITY",
+            "tags": [],
             "phrases": ["now in total freefall",
                         "terrible",
                         "very sad!"]},
@@ -792,12 +839,14 @@ PHRASES = [
            {"target": "Bernard Goldberg",
                                         # JOURNALIST
             "role": "JOURNALIST",
+            "tags": [],
             "phrases": ["not good",
                         "just doesn't know about winning"]},
                                         # David Gregory
            {"target": "David Gregory",
                                         # POLITICAL ANALYST, CNN
             "role": "POLITICAL ANALYST, CNN",
+            "tags": [],
             "phrases": ["got thrown off of TV by NBC",
                         "fired like a dog!",
                         "not nice!"]},
@@ -805,6 +854,7 @@ PHRASES = [
            {"target": "Maggie Haberman",
                                         # JOURNALIST, THE NEW YORK TIMES
             "role": "JOURNALIST, THE NEW YORK TIMES",
+            "tags": [],
             "phrases": ["third-rate-reporter",
                         "totally in the Hillary circle of bias",
                         "sad"]},
@@ -812,59 +862,70 @@ PHRASES = [
            {"target": "Nikki Haley",
                                         # SOUTH CAROLINA GOVERNOR
             "role": "SOUTH CAROLINA GOVERNOR",
+            "tags": [],
             "phrases": ["The people of South Carolina are embarrassed by Nikki Haley!"]},
                                         # Mark Halperin
            {"target": "Mark Halperin",
                                         # POLITICAL ANALYST
             "role": "POLITICAL ANALYST",
+            "tags": [],
             "phrases": ["doesn't have a natural instinct for politics"]},
                                         # Mary Katharine Ham
            {"target": "Mary Katharine Ham",
                                         # JOURNALIST
             "role": "JOURNALIST",
+            "tags": [],
             "phrases": ["isn't smart enough to know what's going on at the border"]},
                                         # John Harwood
            {"target": "John Harwood",
                                         # CHIEF WASHINGTON CORRESPONDENT, CNBC
             "role": "CHIEF WASHINGTON CORRESPONDENT, CNBC",
+            "tags": [],
             "phrases": ["bombed"]},
                                         # Melinda Henneberger
            {"target": "Melinda Henneberger",
                                         # EDITOR-IN-CHIEF, ROLL CALL
             "role": "EDITOR-IN-CHIEF, ROLL CALL",
+            "tags": [],
             "phrases": ["Don't misrepresent in order to make a point"]},
                                         # Dan Henninger
            {"target": "Dan Henninger",
                                         # DEPUTY EDITOR, WALL STREET JOURNAL EDITORIAL PAGE
             "role": "DEPUTY EDITOR, WALL STREET JOURNAL EDITORIAL PAGE",
+            "tags": [],
             "phrases": ["lies"]},
                                         # Jeff Horwitz
            {"target": "Jeff Horwitz",
                                         # REPORTER, THE ASSOCIATED PRESS
             "role": "REPORTER, THE ASSOCIATED PRESS",
+            "tags": [],
             "phrases": ["one of the worst reporters in the business",
                         "wouldn't know the truth if it hit him in the face"]},
                                         # Arianna Huffington
            {"target": "Arianna Huffington",
                                         # FOUNDER, THE HUFFINGTON POST
             "role": "FOUNDER, THE HUFFINGTON POST",
+            "tags": [],
             "phrases": ["dummy",
                         "liberal clown"]},
                                         # Brit Hume
            {"target": "Brit Hume",
                                         # POLITICAL ANALYST, FOX NEWS
             "role": "POLITICAL ANALYST, FOX NEWS",
+            "tags": [],
             "phrases": ["a dope!",
                         "know nothing"]},
                                         # Kasie Hunt
            {"target": "Kasie Hunt",
                                         # POLITICAL CORRESPONDENT, MSNBC
             "role": "POLITICAL CORRESPONDENT, MSNBC",
+            "tags": [],
             "phrases": ["poor and purposely inaccurate reporting"]},
                                         # Harry Hurt III
            {"target": "Harry Hurt III",
                                         # AUTHOR, "LOST TYCOON: THE MANY LIVES OF DONALD J. TRUMP"]
             "role": "AUTHOR, 'LOST TYCOON: THE MANY LIVES OF DONALD J. TRUMP'",
+            "tags": [],
             "phrases": ["failed writer",
                         "talk about me but know nothing about me",
                         "dummy dope",
@@ -873,6 +934,7 @@ PHRASES = [
            {"target": "Samuel L. Jackson",
                                         # ACTOR
             "role": "ACTOR",
+            "tags": [],
             "phrases": ["golf swing. Not athletic",
                         "cheats",
                         "does too many TV commercials - boring",
@@ -881,11 +943,13 @@ PHRASES = [
            {"target": "Hallie Jackson",
                                         # CORRESPONDENT, NBC NEWS
             "role": "CORRESPONDENT, NBC NEWS",
+            "tags": [],
             "phrases": ["bad reporting"]},
                                         # Cheri Jacobus
            {"target": "Cheri Jacobus",
                                         # G.O.P. CONSULTANT
             "role": "G.O.P. CONSULTANT",
+            "tags": [],
             "phrases": ["really dumb",
                         "Begged my people for a job",
                         "Major loser, zero credibility!",
@@ -898,6 +962,7 @@ PHRASES = [
            {"target": "Penn Jillette",
                                         # PERFORMER
             "role": "PERFORMER",
+            "tags": [],
             "phrases": ["sad",
                         "worst show in Las Vegas",
                         "hokey garbage",
@@ -909,16 +974,19 @@ PHRASES = [
            {"target": "Woody Johnson",
                                         # OWNER, THE NEW YORK JETS
             "role": "OWNER, THE NEW YORK JETS",
+            "tags": [],
             "phrases": ["If Woody would've been w/me, he would've been in the playoffs"]},
                                         # John Kasich's ad guy
            {"target": "John Kasich's ad guy",
                                         # STAFFER FOR JOHN KASICH
             "role": "STAFFER FOR JOHN KASICH",
+            "tags": [],
             "phrases": ["his proposal was a rip off"]},
                                         # Megyn Kelly
            {"target": "Megyn Kelly",
                                         # FOX NEWS ANCHOR
             "role": "FOX NEWS ANCHOR",
+            "tags": [],
             "phrases": ["BAD",
                         "highly overrated",
                         "so average in so many ways!",
@@ -957,17 +1025,20 @@ PHRASES = [
            {"target": "Charles Koch",
                                         # CONSERVATIVE DONOR, BILLIONAIRE, PHILANTHROPIST
             "role": "CONSERVATIVE DONOR, BILLIONAIRE, PHILANTHROPIST",
+            "tags": [],
             "phrases": ["looking for a new puppet"]},
                                         # Serge Kovaleski
            {"target": "Serge Kovaleski",
                                         # REPORTER, THE NEW YORK TIMES
             "role": "REPORTER, THE NEW YORK TIMES",
+            "tags": [],
             "phrases": ["pulled-back from his 14 year old never retracted story",
                         "having fun."]},
                                         # Charles Krauthammer
            {"target": "Charles Krauthammer",
                                         # COLUMNIST
             "role": "COLUMNIST",
+            "tags": [],
             "phrases": ["biased",
                         "a @FoxNews flunky",
                         "Iraq war monger",
@@ -981,6 +1052,7 @@ PHRASES = [
            {"target": "Bill Kristol",
                                         # EDITOR, THE WEEKLY STANDARD
             "role": "EDITOR, THE WEEKLY STANDARD",
+            "tags": [],
             "phrases": ["dummy",
                         "an embarrassed loser",
                         "dopey",
@@ -993,27 +1065,32 @@ PHRASES = [
            {"target": "Charles Lane",
                                         # OPINION WRITER, THE WASHINGTON POST
             "role": "OPINION WRITER, THE WASHINGTON POST",
+            "tags": [],
             "phrases": ["a real dope"]},
                                         # John Legere
            {"target": "John Legere",
                                         # CHIEF EXECUTIVE, T-MOBILE
             "role": "CHIEF EXECUTIVE, T-MOBILE",
+            "tags": [],
             "phrases": ["focus on running your company",
                         "try hiring some good managers"]},
                                         # Sam Liccardo
            {"target": "Sam Liccardo",
                                         # MAYOR OF SAN JOSE, CALIF.
             "role": "MAYOR OF SAN JOSE, CALIF.",
+            "tags": [],
             "phrases": ["did a terrible job"]},
                                         # Errol Louis
            {"target": "Errol Louis",
                                         # POLITICAL COMMENTATOR
             "role": "POLITICAL COMMENTATOR",
+            "tags": [],
             "phrases": ["doesn't have a clue"]},
                                         # Rich Lowry
            {"target": "Rich Lowry",
                                         # EDITOR, NATIONAL REVIEW
             "role": "EDITOR, NATIONAL REVIEW",
+            "tags": [],
             "phrases": ["clueless",
                         "incompetent",
                         "should not be allowed on TV"]},
@@ -1021,6 +1098,7 @@ PHRASES = [
            {"target": "Frank Luntz",
                                         # POLITICAL CONSULTANT
             "role": "POLITICAL CONSULTANT",
+            "tags": [],
             "phrases": ["a total clown",
                         "a clown",
                         "where did you find that dumb panel",
@@ -1031,12 +1109,14 @@ PHRASES = [
            {"target": "Ruth Marcus",
                                         # COLUMNIST, THE WASHINGTON POST
             "role": "COLUMNIST, THE WASHINGTON POST",
+            "tags": [],
             "phrases": ["terrible today on Face the Nation",
                         "no focus, poor level of concentration"]},
                                         # Jonathan Martin
            {"target": "Jonathan Martin",
                                         # JOURNALIST, THE NEW YORK TIMES
             "role": "JOURNALIST, THE NEW YORK TIMES",
+            "tags": [],
             "phrases": ["not good reporting",
                         "would be nice if @jmartNYT learned how to read the polls before writing his next story",
                         "dishonest"]},
@@ -1044,6 +1124,7 @@ PHRASES = [
            {"target": "John McCain",
                                         # UNITED STATES SENATOR
             "role": "UNITED STATES SENATOR",
+            "tags": [],
             "phrases": ["has done nothing",
                         "I am no fan",
                         "All he does is go on television is talk, talk, talk",
@@ -1058,22 +1139,26 @@ PHRASES = [
            {"target": "Joe McQuaid",
                                         # PUBLISHER, NEW HAMPSHIRE UNION LEADER
             "role": "PUBLISHER, NEW HAMPSHIRE UNION LEADER",
+            "tags": [],
             "phrases": ["dumb"]},
                                         # Angela Merkel
            {"target": "Angela Merkel",
                                         # GERMAN CHANCELLOR
             "role": "GERMAN CHANCELLOR",
+            "tags": [],
             "phrases": ["ruining Germany"]},
                                         # Russell Moore
            {"target": "Russell Moore",
                                         # EVANGELICAL LEADER
             "role": "EVANGELICAL LEADER",
+            "tags": [],
             "phrases": ["a terrible representative of Evangelicals",
                         "A nasty guy with no heart!"]},
                                         # Ana Navarro
            {"target": "Ana Navarro",
                                         # CNN CONTRIBUTOR
             "role": "CNN CONTRIBUTOR",
+            "tags": [],
             "phrases": ["flunkie",
                         "[one] of the dumbest people in politics",
                         "has no talent, no TV persona"]},
@@ -1081,6 +1166,7 @@ PHRASES = [
            {"target": "Michael Nutter",
                                         # FORMER MAYOR OF PHILADELPHIA
             "role": "FORMER MAYOR OF PHILADELPHIA",
+            "tags": [],
             "phrases": ["doing a terrible job",
                         "low life",
                         "a crude dope!"]},
@@ -1088,6 +1174,7 @@ PHRASES = [
            {"target": "Tim O'Brien",
                                         # JOURNALIST, BLOOMBERG
             "role": "JOURNALIST, BLOOMBERG",
+            "tags": [],
             "phrases": ["dumb guy with no clue",
                         "really stupid talking head",
                         "dopey writer"]},
@@ -1095,6 +1182,7 @@ PHRASES = [
            {"target": "Clare O'Connor",
                                         # STAFF WRITER, FORBES
             "role": "STAFF WRITER, FORBES",
+            "tags": [],
             "phrases": ["dummy'",
                         "dummy",
                         "dummy writer"]},
@@ -1102,6 +1190,7 @@ PHRASES = [
            {"target": "Lawrence O'Donnell",
                                         # TELEVISION HOST, MSNBC
             "role": "TELEVISION HOST, MSNBC",
+            "tags": [],
             "phrases": ["a fool",
                         "dopey",
                         "dopey political pundit",
@@ -1110,6 +1199,7 @@ PHRASES = [
            {"target": "Barack Obama",
                                         # PRESIDENT OF THE UNITED STATES
             "role": "FORMER PRESIDENT OF THE UNITED STATES",
+            "tags": [],
             "phrases": ["failed",
                         "the worst president in U.S. history!",
                         "weak",
@@ -1129,16 +1219,19 @@ PHRASES = [
            {"target": "John Oliver",
                                         # COMEDIAN, HOST, "LAST WEEK TONIGHT"
             "role": "COMEDIAN, HOST, 'LAST WEEK TONIGHT'",
+            "tags": [],
             "phrases": ["very boring and low rated show"]},
                                         # Dana Perino
            {"target": "Dana Perino",
                                         # FORMER WHITE HOUSE PRESS SECRETARY
             "role": "FORMER WHITE HOUSE PRESS SECRETARY",
+            "tags": [],
             "phrases": ["just not getting there"]},
                                         # Protesters
            {"target": "Protesters",
                                         # PROTESTERS OF MR. TRUMP'S RALLIES
             "role": "PROTESTERS OF MR. TRUMP'S RALLIES",
+            "tags": [],
             "phrases": ["thugs",
                         "thugs",
                         "thugs",
@@ -1150,16 +1243,19 @@ PHRASES = [
            {"target": "Steve Rattner",
                                         # WALL STREET EXECUTIVE, NEW YORK TIMES CONTRIBUTING WRITER
             "role": "WALL STREET EXECUTIVE, NEW YORK TIMES CONTRIBUTING WRITER",
+            "tags": [],
             "phrases": ["should have gone to prison"]},
                                         # Barbara Res
            {"target": "Barbara Res",
                                         # FORMER TRUMP EXECUTIVE AND AUTHOR OF "ALL ALONE ON THE 68TH FLOOR"]
             "role": "FORMER TRUMP EXECUTIVE AND AUTHOR OF 'ALL ALONE ON THE 68TH FLOOR']",
+            "tags": [],
             "phrases": ["nasty"]},
                                         # Tom Ridge
            {"target": "Tom Ridge",
                                         # FORMER PENNSYLVANIA GOVERNOR
             "role": "FORMER PENNSYLVANIA GOVERNOR",
+            "tags": [],
             "phrases": ["a failed 'Bushy' & PA Governor",
                         "shouldn't be allowed to do [his] bias commentary",
                         "faulty thought process"]},
@@ -1167,18 +1263,21 @@ PHRASES = [
            {"target": "John Roberts",
                                         # SUPREME COURT CHIEF JUSTICE
             "role": "SUPREME COURT CHIEF JUSTICE",
+            "tags": [],
             "phrases": ["my judicial appointments will do the right thing unlike... Roberts",
                         "let us down"]},
                                         # Cokie Roberts
            {"target": "Cokie Roberts",
                                         # CONTRIBUTOR, "MORNING EDITION"
             "role": "CONTRIBUTOR, 'MORNING EDITION'",
+            "tags": [],
             "phrases": ["kooky",
                         "even dumber"]},
                                         # Mitt Romney
            {"target": "Mitt Romney",
                                         # FORMER MASSACHUSETTS GOVERNOR
             "role": "FORMER MASSACHUSETTS GOVERNOR",
+            "tags": [],
             "phrases": ["choked like a dog",
                         "a mixed up man who doesn't have a clue. No wonder he lost!",
                         "Failed",
@@ -1206,11 +1305,13 @@ PHRASES = [
            {"target": "Ronda Rousey",
                                         # MIXED MARTIAL ARTIST
             "role": "MIXED MARTIAL ARTIST",
+            "tags": [],
             "phrases": ["not a nice person!"]},
                                         # Karl Rove
            {"target": "Karl Rove",
                                         # FORMER DEPUTY WHITE HOUSE CHIEF OF STAFF
             "role": "FORMER DEPUTY WHITE HOUSE CHIEF OF STAFF",
+            "tags": [],
             "phrases": ["a failed Jeb Bushy",
                         "Never says anything good & never will",
                         "Shouldn't be on the air!",
@@ -1259,12 +1360,14 @@ PHRASES = [
            {"target": "Jennifer Rubin",
                                         # BLOGGER, THE WASHINGTON POST
             "role": "BLOGGER, THE WASHINGTON POST",
+            "tags": [],
             "phrases": ["one of the dumber bloggers",
                         "in love with Marco Rubio?"]},
                                         # Ben Sasse
            {"target": "Ben Sasse",
                                         # UNITED STATES SENATOR
             "role": "UNITED STATES SENATOR",
+            "tags": [],
             "phrases": ["looks more like a gym rat than a U.S. Senator",
                         "how the hell did he ever get elected?",
                         "totally ineffective"]},
@@ -1272,44 +1375,52 @@ PHRASES = [
            {"target": "Joe Scarborough",
                                         # HOST, "MORNING JOE"]
             "role": "HOST, 'MORNING JOE'",
+            "tags": [],
             "phrases": ["has gone really hostile ever since I said I won't do or watch the show anymore",
                         "Not much power or insight!"]},
                                         # Ben Schreckinger
            {"target": "Ben Schreckinger",
                                         # POLITICO REPORTER
             "role": "POLITICO REPORTER",
+            "tags": [],
             "phrases": ["major lightweight with no credibility",
                         "so dishonest"]},
                                         # Rick Scott
            {"target": "Rick Scott",
                                         # FLORIDA GOVERNOR
             "role": "FLORIDA GOVERNOR",
+            "tags": [],
             "phrases": ["did really poorly on television"]},
                                         # Molly Sims
            {"target": "Molly Sims",
                                         # CONTRIBUTOR, "THE VIEW"]
             "role": "CONTRIBUTOR, 'THE VIEW'",
+            "tags": [],
             "phrases": ["a disaster"]},
                                         # Paul Singer
            {"target": "Paul Singer",
                                         # HEDGE FUND MANAGER
             "role": "HEDGE FUND MANAGER",
+            "tags": [],
             "phrases": ["Mr. Amnesty"]},
                                         # Tavis Smiley
            {"target": "Tavis Smiley",
                                         # JOURNALIST, PBS
             "role": "JOURNALIST, PBS",
+            "tags": [],
             "phrases": ["hater & racist"]},
                                         # Shep Smith
            {"target": "Shep Smith",
                                         # ANCHOR, FOX NEWS
             "role": "ANCHOR, FOX NEWS",
+            "tags": [],
             "phrases": ["so totally biased",
                         "should be ashamed of himself"]},
                                         # Stuart Stevens
            {"target": "Stuart Stevens",
                                         # POLITICAL CONSULTANT
             "role": "POLITICAL CONSULTANT",
+            "tags": [],
             "phrases": ["Sad!",
                         "failed campaign manager of Mitt Romney's historic loss",
                         "failed advisor",
@@ -1326,6 +1437,7 @@ PHRASES = [
            {"target": "Chris Stirewalt",
                                         # EDITOR, FOX NEWS CHANNEL
             "role": "EDITOR, FOX NEWS CHANNEL",
+            "tags": [],
             "phrases": ["one of the dumbest political pundits on television",
                         "dope",
                         "really dumb puppet"]},
@@ -1333,6 +1445,7 @@ PHRASES = [
            {"target": "John Sununu",
                                         # FORMER NEW HAMPSHIRE GOVERNOR
             "role": "FORMER NEW HAMPSHIRE GOVERNOR",
+            "tags": [],
             "phrases": ["dummy",
                         "couldn't get elected dog catcher",
                         "forgot to mention my phenomenal biz success rate"]},
@@ -1340,12 +1453,14 @@ PHRASES = [
            {"target": "Alwaleed bin Talal",
                                         # PRINCE, SAUDI ARABIA
             "role": "PRINCE, SAUDI ARABIA",
+            "tags": [],
             "phrases": ["dopey",
                         "wants to control our U.S. politicians with daddy's money"]},
                                         # Marc Thiessen
            {"target": "Marc Thiessen",
                                         # COLUMNIST AND FOX NEWS CONTRIBUTOR
             "role": "COLUMNIST AND FOX NEWS CONTRIBUTOR",
+            "tags": [],
             "phrases": ["failed",
                         "never been able to make a comeback",
                         "a third rate talent",
@@ -1354,6 +1469,7 @@ PHRASES = [
            {"target": "Chuck Todd",
                                         # MODERATOR, "MEET THE PRESS"]
             "role": "MODERATOR, 'MEET THE PRESS'",
+            "tags": [],
             "phrases": ["totally biased",
                         "sleepy eyes",
                         "was going off the air until I came along",
@@ -1374,6 +1490,7 @@ PHRASES = [
            {"target": "Katy Tur",
                                         # JOURNALIST, NBC NEWS
             "role": "JOURNALIST, NBC NEWS",
+            "tags": [],
             "phrases": ["should be fired",
                         "dishonest reporting",
                         "incompetent",
@@ -1385,6 +1502,7 @@ PHRASES = [
            {"target": "Bob Vander Plaats",
                                         # PRESIDENT AND CHIEF EXECUTIVE, THE FAMILY LEADER
             "role": "PRESIDENT AND CHIEF EXECUTIVE, THE FAMILY LEADER",
+            "tags": [],
             "phrases": ["a total phony and con man",
                         "phony",
                         "a total phony",
@@ -1396,32 +1514,38 @@ PHRASES = [
            {"target": "Frank VanderSloot",
                                         # ENTREPRENEUR
             "role": "ENTREPRENEUR",
+            "tags": [],
             "phrases": ["Last victim was Mitt Romney - see how that turned out."]},
                                         # Paulina Vega
            {"target": "Paulina Vega",
                                         # MISS UNIVERSE, 2014
             "role": "MISS UNIVERSE, 2014",
+            "tags": [],
             "phrases": ["hypocrite"]},
                                         # Voters
            {"target": "Voters",
                                         # GROUP
             "role": "ELECTION GROUP",
+            "tags": [],
             "phrases": ["I don't believe I have been given any credit by the voters for self-funding my campaign"]},
                                         # Nicolle Wallace
            {"target": "Nicolle Wallace",
                                         # FORMER CO-HOST, "THE VIEW"
             "role": "FORMER CO-HOST, 'THE VIEW'",
+            "tags": [],
             "phrases": ["doesn't have a clue",
                         "a disaster"]},
                                         # Marty Walsh
            {"target": "Marty Walsh",
                                         # BOSTON MAYOR
             "role": "BOSTON MAYOR",
+            "tags": [],
             "phrases": ["wasted a lot of time and money"]},
                                         # Elizabeth Warren
            {"target": "Elizabeth Warren",
                                         # UNITED STATES SENATOR
             "role": "UNITED STATES SENATOR",
+            "tags": [],
             "phrases": ["Very racist!",
                         "Goofy",
                         "has a nasty mouth",
@@ -1466,6 +1590,7 @@ PHRASES = [
            {"target": "George Will",
                                         # COLUMNIST
             "role": "COLUMNIST",
+            "tags": [],
             "phrases": ["deadpan",
                         "BORING",
                         "dopey",
@@ -1479,22 +1604,26 @@ PHRASES = [
            {"target": "Juan Williams",
                                         # POLITICAL ANALYST, FOX NEWS
             "role": "POLITICAL ANALYST, FOX NEWS",
+            "tags": [],
             "phrases": ["you never speak well of me & yet when I saw you at Fox you ran over like a child and wanted a picture"]},
                                         # Rick Wilson
            {"target": "Rick Wilson",
                                         # REPUBLICAN POLITICAL CONSULTANT
             "role": "REPUBLICAN POLITICAL CONSULTANT",
+            "tags": [],
             "phrases": ["weak and totally conflicted",
                         "dumb as a rock"]},
                                         # Neil Young
            {"target": "Neil Young",
                                         # MUSICIAN
             "role": "MUSICIAN",
+            "tags": [],
             "phrases": ["total hypocrite"]},
                                         # Mort Zuckerman
            {"target": "Mort Zuckerman",
                                         # OWNER, THE NEW YORK DAILY NEWS
             "role": "OWNER, THE NEW YORK DAILY NEWS",
+            "tags": [],
             "phrases": ["dopey",
                         "Dopey",
                         "has a major inferiority complex",
@@ -1503,6 +1632,7 @@ PHRASES = [
            {"target": "Bill de Blasio",
                                         # MAYOR OF NEW YORK CITY
             "role": "MAYOR OF NEW YORK CITY",
+            "tags": [],
             "phrases": ["the worst mayor in the United States",
                         "disgrace",
                         "worst mayor in the United States",
@@ -1513,17 +1643,20 @@ PHRASES = [
            {"target": "Jeb Bush, Supporters of",
                                         # Jeb Bush, Supporters of
             "role": "Jeb Bush, Supporters of",
+            "tags": [],
             "phrases": ["everyone of those people who contributed are getting something to the detriment of America"]},
                                         # Jeb Bush, Campaign of
            {"target": "Jeb Bush, Campaign of",
                                         # THE PRESIDENTIAL CAMPAIGN OF JEB BUSH
             "role": "THE PRESIDENTIAL CAMPAIGN OF JEB BUSH",
+            "tags": [],
             "phrases": ["a total waste of money",
                         "too much staff being paid way too much money"]},
                                         # Club for Growth
            {"target": "Club for Growth",
                                         # ANTITAX POLITICAL GROUP
             "role": "ANTITAX POLITICAL GROUP",
+            "tags": [],
             "phrases": ["a dumb group!",
                         "trying to extort $1,000,000.00 from me",
                         "Disgraceful!",
@@ -1540,29 +1673,34 @@ PHRASES = [
            {"target": "Ted Cruz, Campaign of",
                                         # THE PRESIDENTIAL CAMPAIGN OF TED CRUZ
             "role": "THE PRESIDENTIAL CAMPAIGN OF TED CRUZ",
+            "tags": [],
             "phrases": ["bad!",
                         "the Cruz people are back to doing very sleazy and dishonest 'pushpolls' on me"]},
                                         # The Democratic candidates
            {"target": "The Democratic candidates",
                                         # GROUP
             "role": "ELECTION GROUP",
+            "tags": [],
             "phrases": ["very gentle and soft",
                         "no STAR"]},
                                         # Democrats
            {"target": "Democrats",
                                         # POLITICAL PARTY
             "role": "POLITICAL PARTY",
+            "tags": [],
             "phrases": ["total weakness & incompetence that gave rise to ISIS",
                         "it's the Democrat's total weakness that is the greatest recruiting tool of ISIS!!!"]},
                                         # European leaders
            {"target": "European leaders",
                                         # GROUP
             "role": "POLITICAL GROUP",
+            "tags": [],
             "phrases": ["weak leaders"]},
                                         # Republican presidential candidates
            {"target": "Republican presidential candidates",
                                         # GROUP
             "role": "ELECTION GROUP",
+            "tags": [],
             "phrases": ["bought and paid for by special interests!",
                         "beg for money etc. from the Koch Brothers",
                         "puppets"]},
@@ -1570,6 +1708,7 @@ PHRASES = [
            {"target": "ISIS",
                                         # TERRORIST GROUP
             "role": "TERRORIST GROUP",
+            "tags": [],
             "phrases": ["low-level degenerates",
                         "thugs",
                         "losers"]},
@@ -1577,16 +1716,19 @@ PHRASES = [
            {"target": "North Atlantic Treaty Organization",
                                         # INTERNATIONAL ALLIANCE
             "role": "INTERNATIONAL ALLIANCE",
+            "tags": [],
             "phrases": ["obsolete"]},
                                         # The Obama administration
            {"target": "The Obama administration",
                                         # ''
             "role": "ADMINISTRATION OF PRESIDENT OF THE UNITED STATES",
+            "tags": [],
             "phrases": ["incompetence of our current administration is beyond comprehension"]},
                                         # Other presidential candidates
            {"target": "Other presidential candidates",
                                         # MOSTLY REPUBLICAN POLITICIANS
             "role": "MOSTLY REPUBLICAN POLITICIANS",
+            "tags": [],
             "phrases": ["phony",
                         "all talk and no action",
                         "not only breaking the spirit of the law but the law itself",
@@ -1595,17 +1737,20 @@ PHRASES = [
            {"target": "People",
                                         # GROUP
             "role": "GENERAL GROUP",
+            "tags": [],
             "phrases": ["have got to stop working to be so politically correct",
                         "know NOTHING"]},
                                         # Politically incorrect fools
            {"target": "Politically incorrect fools",
                                         # GROUP
             "role": "POLITICAL GROUP",
+            "tags": [],
             "phrases": ["stop wasting time and energy on nonsense"]},
                                         # Politicians
            {"target": "Politicians",
                                         # ''
             "role": "POLITICAL GROUP",
+            "tags": [],
             "phrases": ["all talk, no action",
                         "very stupid, highly incompetent people running our country into the ground",
                         "incompetent",
@@ -1618,6 +1763,7 @@ PHRASES = [
            {"target": "The Republican establishment",
                                         # GROUP
             "role": "POLITICAL GROUP",
+            "tags": [],
             "phrases": ["Dishonest",
                         "failing",
                         "could not stop Obama (twice)",
@@ -1626,11 +1772,13 @@ PHRASES = [
            {"target": "The Republican Party",
                                         # POLITICAL PARTY
             "role": "POLITICAL PARTY",
+            "tags": [],
             "phrases": ["getting ready to treat me unfairly"]},
                                         # The Republican Party of Virginia
            {"target": "The Republican Party of Virginia",
                                         # POLITICAL PARTY
             "role": "POLITICAL PARTY",
+            "tags": [],
             "phrases": ["total mess",
                         "stupid",
                         "be smart and win for a change",
@@ -1641,38 +1789,45 @@ PHRASES = [
            {"target": "Other Republican candidates",
                                         # GROUP
             "role": "ELECTION GROUP",
+            "tags": [],
             "phrases": ["mere puppets"]},
                                         # Republicans
            {"target": "Republicans",
                                         # GROUP
             "role": "ELECTION GROUP",
+            "tags": [],
             "phrases": ["selfishly opposed to me!",
                         "hollowing out our military"]},
                                         # Super PACs
            {"target": "Super PACs",
                                         # POLITICAL FUND-RAISING COMMITTEES
             "role": "POLITICAL FUND-RAISING COMMITTEES",
+            "tags": [],
             "phrases": ["a total scam on our system and country"]},
                                         # Donald Trump, Opposition to
            {"target": "Donald Trump, Opposition to",
                                         # ''
             "role": "GENERAL GROUP",
+            "tags": [],
             "phrases": ["are totally ineffective & have been for years"]},
                                         # U.S. Leaders
            {"target": "U.S. Leaders",
                                         # GROUP
             "role": "POLITICAL GROUP",
+            "tags": [],
             "phrases": ["we are being led to slaughter"]},
     # BEGIN MEDIA:
                                         # Anderson Cooper '360',
            {"target": "Anderson Cooper '360',",
                                         # CNN NEWS PROGRAM
             "role": "CNN NEWS PROGRAM",
+            "tags": [],
             "phrases": ["a waste"]},
                                         # The Associated Press
            {"target": "The Associated Press",
                                         # NEWS ORGANIZATION
             "role": "NEWS ORGANIZATION",
+            "tags": [],
             "phrases": ["false",
                         "has one of the worst reporters in the business",
                         "dishonest reporting",
@@ -1686,6 +1841,7 @@ PHRASES = [
            {"target": "CNBC",
                                         # NEWS ORGANIZATION
             "role": "NEWS ORGANIZATION",
+            "tags": [],
             "phrases": ["crazy",
                         "fictitious polling numbers",
                         "sad",
@@ -1696,6 +1852,7 @@ PHRASES = [
            {"target": "CNN",
                                         # NEWS ORGANIZATION
             "role": "NEWS ORGANIZATION",
+            "tags": [],
             "phrases": ["so biased",
                         "Shows are predictable garbage!",
                         "one big lie!",
@@ -1726,12 +1883,14 @@ PHRASES = [
            {"target": "The Daily Beast",
                                         # NEWS WEBSITE
             "role": "NEWS WEBSITE",
+            "tags": [],
             "phrases": ["failing",
                         "money losing"]},
                                         # The Des Moines Register
            {"target": "The Des Moines Register",
                                         # NEWSPAPER
             "role": "NEWSPAPER",
+            "tags": [],
             "phrases": ["failing",
                         "I think something's going on w/them",
                         "ultra liberal",
@@ -1744,6 +1903,7 @@ PHRASES = [
            {"target": "Forbes",
                                         # MAGAZINE
             "role": "MAGAZINE",
+            "tags": [],
             "phrases": ["failed magazine",
                         "circulation way down",
                         "failing",
@@ -1752,11 +1912,13 @@ PHRASES = [
            {"target": "Fortune",
                                         # MAGAZINE
             "role": "MAGAZINE",
+            "tags": [],
             "phrases": ["few people know that Fortune Magazine is still in business"]},
                                         # Fox News
            {"target": "Fox News",
                                         # NEWS ORGANIZATION
             "role": "NEWS ORGANIZATION",
+            "tags": [],
             "phrases": ["How many times can the same people ask the same question?",
                         "totally biased and disgusting reporting",
                         "in the bag!",
@@ -1781,6 +1943,7 @@ PHRASES = [
            {"target": "The Huffington Post",
                                         # NEWS ORGANIZATION
             "role": "NEWS ORGANIZATION",
+            "tags": [],
             "phrases": ["should change their fraudulent story",
                         "money-losing",
                         "money-losing",
@@ -1790,6 +1953,7 @@ PHRASES = [
            {"target": "The mainstream media",
                                         # ''
             "role": "NEWS ORGANIZATION",
+            "tags": [],
             "phrases": ["so totally biased",
                         "dishonesty",
                         "one big lie!",
@@ -1824,6 +1988,7 @@ PHRASES = [
            {"target": "Meet the Press",
                                         # TELEVISION SHOW
             "role": "TELEVISION SHOW",
+            "tags": [],
             "phrases": ["did a 1 hour hit job on me today",
                         "totally biased and mostly false",
                         "Dishonest",
@@ -1834,6 +1999,7 @@ PHRASES = [
            {"target": "Morning Joe",
                                         # TELEVISION SHOW
             "role": "TELEVISION SHOW",
+            "tags": [],
             "phrases": ["Nobody is watching",
                         "Gone off the deep end",
                         "bad ratings",
@@ -1848,6 +2014,7 @@ PHRASES = [
            {"target": "National Review",
                                         # MAGAZINE
             "role": "MAGAZINE",
+            "tags": [],
             "phrases": ["over",
                         "dying",
                         "losing for years",
@@ -1860,12 +2027,14 @@ PHRASES = [
            {"target": "'New Day',",
                                         # CNN NEWS PROGRAM
             "role": "CNN NEWS PROGRAM",
+            "tags": [],
             "phrases": ["treats me very badly",
                         "not going to watch anymore"]},
                                         # The New Hampshire Union Leader
            {"target": "The New Hampshire Union Leader",
                                         # NEWSPAPER
             "role": "NEWSPAPER",
+            "tags": [],
             "phrases": ["highly unethical",
                         "won't survive",
                         "failing",
@@ -1891,6 +2060,7 @@ PHRASES = [
            {"target": "The New York Daily News",
                                         # NEWSPAPER
             "role": "NEWSPAPER",
+            "tags": [],
             "phrases": ["failing",
                         "failing",
                         "dead",
@@ -1905,6 +2075,7 @@ PHRASES = [
            {"target": "The New York Times",
                                         # NEWSPAPER
             "role": "NEWSPAPER",
+            "tags": [],
             "phrases": ["Very dishonest!",
                         "failing",
                         "failing",
