@@ -65,3 +65,6 @@ target/
 bak/*
 # emacs
 *~
+
+# should not be committed
+config.py
